@@ -43,8 +43,8 @@ class Testdrives extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'idAuto' => 'Id Auto',
-            'DataProvedeniya' => 'Data Provedeniya',
+            'idAuto' => 'Номер авто',
+            'DataProvedeniya' => 'Дата проведения',
         ];
     }
 

@@ -47,10 +47,10 @@ class Reserve extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'idClienta' => 'Id Clienta',
-            'idAuto' => 'Id Auto',
-            'DataReserva' => 'Data Reserva',
-            'DaraOkonchReserva' => 'Dara Okonch Reserva',
+            'idClienta' => 'Номер клиента',
+            'idAuto' => 'Номер авто',
+            'DataReserva' => 'Дата резерва',
+            'DaraOkonchReserva' => 'Дата окончания резерва',
         ];
     }
 

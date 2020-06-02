@@ -29,24 +29,24 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => Yii::$app->name,
+        'brandLabel' => 'AutoMusta',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
     ]);
     $menuItems = [
-        // ['label' => 'Home', 'url' => ['/site/index']],
+         // ['label' => 'Home', 'url' => ['/site/index']],
         // ['label' => 'asd', 'url' => ['/autos/index']],
         ['label' => 'Home', 'url' => ['/site/index']],
-        ['label' => 'autos', 'url' => ['/admin/autos/index']],
+        ['label' => 'Авто', 'url' => ['/admin/autos/index']],
         // ['label' => 'Авторизация админ', 'url' => ['/admin']],
-        ['label' => 'clients', 'url' => ['/admin/clients/index']],
-        ['label' => 'employees', 'url' => ['/admin/employees/index']],
-        ['label' => 'reserve', 'url' => ['/admin/reserve/index']],
-        ['label' => 'sales', 'url' => ['/admin/sales/index']],
-        ['label' => 'testdrives', 'url' => ['/admin/testdrives/index']],
-        ['label' => 'tradein', 'url' => ['/admin/tradein/index']],
+        ['label' => 'Клиенты', 'url' => ['/admin/clientform/index']],
+        ['label' => 'Сотрудники', 'url' => ['/admin/employees/index']],
+        ['label' => 'Резерв', 'url' => ['/admin/reserve/index']],
+        ['label' => 'Продажи', 'url' => ['/admin/sales/index']],
+        ['label' => 'Тип двигателя', 'url' => ['/admin/testdrives/index']],
+        ['label' => 'Тип КПП', 'url' => ['/admin/tradein/index']],
 
     ];
     if (Yii::$app->user->isGuest) {

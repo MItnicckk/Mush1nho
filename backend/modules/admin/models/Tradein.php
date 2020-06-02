@@ -43,8 +43,8 @@ class Tradein extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'SdavaemieAuto' => 'Sdavaemie Auto',
-            'idProdashiAuto' => 'Id Prodashi Auto',
+            'SdavaemieAuto' => 'Сдаваемые авто',
+            'idProdashiAuto' => 'Номер продажи авто',
         ];
     }
 

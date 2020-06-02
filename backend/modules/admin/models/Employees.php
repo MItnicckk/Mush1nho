@@ -47,13 +47,13 @@ class Employees extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'Familiya' => 'Familiya',
-            'Imya' => 'Imya',
-            'Otchet' => 'Otchet',
-            'Dolshnost' => 'Dolshnost',
-            'Address' => 'Address',
-            'NomerTel' => 'Nomer Tel',
-            'DataUstroistva' => 'Data Ustroistva',
+            'Familiya' => 'Фамилия',
+            'Imya' => 'Имя',
+            'Otchet' => 'Отчет',
+            'Dolshnost' => 'Должность',
+            'Address' => 'Адрес',
+            'NomerTel' => 'Номер телефона',
+            'DataUstroistva' => 'Дата устройства',
         ];
     }
 

@@ -56,17 +56,17 @@ class Autos extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'Marka' => 'Marka',
-            'Model' => 'Model',
-            'GodVipuska' => 'God Vipuska',
-            'Cvet' => 'Cvet',
-            'Probeg' => 'Probeg',
-            'ObemDvigatelya' => 'Obem Dvigatelya',
-            'KolichLS' => 'Kolich Ls',
-            'TipDvigatelya' => 'Tip Dvigatelya',
-            'TipKPP' => 'Tip Kpp',
-            'Cena' => 'Cena',
-            'Nalichie' => 'Nalichie',
+            'Marka' => 'Марка',
+            'Model' => 'Модель',
+            'GodVipuska' => 'Год выпуска',
+            'Cvet' => 'Цвет',
+            'Probeg' => 'Пробег',
+            'ObemDvigatelya' => 'Объем двигателя',
+            'KolichLS' => 'Кол ЛС',
+            'TipDvigatelya' => 'Тип двигателя',
+            'TipKPP' => 'Тип КПП',
+            'Cena' => 'Цена',
+            'Nalichie' => 'Наличие',
         ];
     }
 
